@@ -49,4 +49,3 @@ Kemudian buka `http://localhost:8000`.
 
 Program menampilkan predikat dan status masing-masing nilai serta ringkasan rata-rata.
 
-Dibuat untuk tugas **Pemrograman Web**.
