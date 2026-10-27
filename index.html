@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GradeFlow — Analisis Nilai</title><link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
+</head>
+<body><main class="container">
+<header><div class="logo">G</div><div><strong>GradeFlow</strong><small>STUDENT SCORE ANALYZER</small></div><span class="tag">PEMROGRAMAN WEB</span></header>
+<section class="hero"><p class="eyebrow">SIMPLE JAVASCRIPT PROJECT</p><h1>Analisis nilai,<br><span>lebih sederhana.</span></h1><p class="muted">Masukkan beberapa nilai sekaligus. Program akan menentukan predikat dan status kelulusan menggunakan percabangan dan perulangan.</p></section>
+<section class="panel"><div class="heading"><div><p class="eyebrow">01 / INPUT</p><h2>Masukkan nilai</h2></div><b>01</b></div>
+<label for="scores">Daftar nilai (0–100)</label><textarea id="scores" rows="3" placeholder="Contoh: 92, 78, 65, 48, 35"></textarea><p class="hint">Pisahkan nilai dengan koma atau spasi.</p>
+<div class="actions"><button id="analyze">Analisis nilai ↗</button><button id="reset" class="secondary">Reset</button></div><p id="message" role="status">Masukkan nilai untuk memulai analisis.</p></section>
+<section id="results" class="panel" hidden><div class="heading"><div><p class="eyebrow">02 / RESULT</p><h2>Hasil analisis</h2></div><b>02</b></div>
+<div class="summary"><article><span>Total data</span><strong id="total">0</strong></article><article><span>Rata-rata</span><strong id="average">0</strong></article><article><span>Lulus</span><strong id="passed">0</strong></article></div>
+<div class="table-wrap"><table><thead><tr><th>No.</th><th>Nilai</th><th>Predikat</th><th>Status</th></tr></thead><tbody id="rows"></tbody></table></div><p class="hint">Batas kelulusan adalah nilai 60. Nilai di luar rentang 0–100 tidak diproses.</p></section>
+<section class="panel"><p class="eyebrow">HOW IT WORKS</p><h2>Logika program</h2><div class="logic"><p><b>01 · Input</b><br>Pengguna memasukkan beberapa nilai.</p><p><b>02 · Perulangan for</b><br>Program memeriksa nilai satu per satu.</p><p><b>03 · Percabangan if / else if</b><br>Nilai dikelompokkan ke lima predikat.</p></div></section>
+<footer>HTML · CSS · JAVASCRIPT <span>LATIHAN PERCABANGAN & PERULANGAN</span></footer>
+</main></body></html>
